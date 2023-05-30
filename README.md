@@ -10,7 +10,7 @@ The code implements an automated reliable method to compute transport properties
 
 Workflow description
 
-![image](https://github.com/mulmopro/AMTP_DPD/assets/83214196/d74d8cd0-a59b-4fdb-a895-0fe127ae5a00)
+![image](https://github.com/mulmopro/AMTP_DPD/assets/83214196/1b691bef-88c9-4a0c-94cd-e339ccd98863)
 
 The Python script constituting the algorithm for transport properties calculation from DPD equilibrium simulations is made of:
 
