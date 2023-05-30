@@ -21,12 +21,7 @@ main.py - This is the main file of the method that should be executed to start a
 	3. Reading the output of the simulations
 	4. Verification of the out-of-loop conditions 
 
-launcher_cluster.py - This contains all the information needed to generate the LAMMPS input script according to the INPUT DATA specified in the main.py and the command line to run LAMMPS in parallel via mpirun. The position of the LAMMPS executable (lmp_mpi) has to be consistent with the path-to-executable in the command line.
-	
-	1. In this case LAMMPS is run executing the Singularity image out of the folder "lammps_dpdext_SH.sif" by the command  :
-	"prun singularity exec ../lammps_dpdext_SH.sif /home/lammps/src/lmp_mpi -in $CASE_IN"
-		
-	2. To run the LAMMPS executable locally the previous command has to be substituted by: "mpirun -np 6 path/to/lmp_mpi -in $CASE_IN")
+launcher_cluster.py - This contains all the information needed to generate the LAMMPS input script according to the INPUT DATA specified in the main.py and the command line to run LAMMPS in parallel via mpirun. The position of the LAMMPS executable (lmp_mpi) has to be consistent with the path-to-executable in the command line: "mpirun -np 8 path/to/lmp_mpi -in $CASE_IN".
 
 ImportDatas.py - This contains a function that imports OUTPUT DATA from the LAMMPS output files and converts it into data that Python is able to manipulate. 
 
