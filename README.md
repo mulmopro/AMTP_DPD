@@ -4,9 +4,9 @@
 
 The code implements an automated reliable method to compute transport properties from DPD equilibrium simulations performed with LAMMPS. It has the aim of improving the Green-Kubo approach reliability and computational feasibility for the calculation of the zero-shear viscosity in DPD simulations. It is based on an iterative algorithm that automatically finds for a given DPD system:
 
-1) the parameters of the approximated algorithm adopted by LAMMPS (Nrep, Nfreq, Nsim) for the calculation of the SACF with the shortest trajectory and the proper temporal resolution giving the fixed statistical accuracy
+* the parameters of the approximated algorithm adopted by LAMMPS (Nrep, Nfreq, Nsim) for the calculation of the SACF with the shortest trajectory and the proper temporal resolution giving the fixed statistical accuracy
 
-2) the resulting viscosity value, the self-diffusion coefficient and the Schmidt number 
+* the resulting viscosity value, the self-diffusion coefficient and the Schmidt number 
 
 **Workflow description**
 
