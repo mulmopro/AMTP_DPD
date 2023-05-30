@@ -15,7 +15,7 @@ _ **Workflow of the automated method for viscosity calculation from DPD simulati
 
 The Python script constituting the algorithm for transport properties calculation from DPD equilibrium simulations is made of:
 
-main.py - This in the main file of the method that should be executed to start a new cycle of simulations. It doesn't explicitly contain all operations performed by the code, but orchestrates the succession the succession of tasks performed. These tasks include:
+==main.py== - This in the main file of the method that should be executed to start a new cycle of simulations. It doesn't explicitly contain all operations performed by the code, but orchestrates the succession the succession of tasks performed. These tasks include:
 
 	1. Simulation initialization (Setup of the DPD system specific input parameters a, s, sigma, rcD and Setup of the initial guest for Nrep, Nsim and dt to initiate the 1st simulation)
 	2. Simulation run
