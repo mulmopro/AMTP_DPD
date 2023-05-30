@@ -1,6 +1,6 @@
 # Automated Method to compute Transport Properties from DPD equilibrium simulations
 
-Motivations and Application
+**Motivations and Application**
 
 The code implements an automated reliable method to compute transport properties from DPD equilibrium simulations performed with LAMMPS. It was thought to assess the Green-Kubo approach realibility and computational feasibility for the calculation of the zero-shear viscosity in DPD simulations. It is based on an iterative algorithm that automatically finds:
 
@@ -8,9 +8,9 @@ The code implements an automated reliable method to compute transport properties
 
 2) the viscosity value that is independent on the choice of time step for a given DPD system
 
-Workflow description
+**Workflow description**
 
-![image](https://github.com/mulmopro/AMTP_DPD/assets/83214196/1b691bef-88c9-4a0c-94cd-e339ccd98863)
+![Workflow](https://github.com/mulmopro/AMTP_DPD/assets/83214196/99e9bcb3-4170-4b6b-a4cb-f126d065b571)
 
 The Python script constituting the algorithm for transport properties calculation from DPD equilibrium simulations is made of:
 
@@ -38,7 +38,7 @@ The Python script constituting the algorithm for transport properties calculatio
 
 >gamma_eff.py - This contains all the functions needed to import the RDF computed by LAMMPS simulation and saved into tmp.rdf file and calculate the effective friction coefficient	value.
 
-Technical informations
+**Technical informations**
 
 To run the program the command to execute is: "python3 main.py"
 The Python libraries needed are NumPy and Pandas. The Python subprocess module is used.
