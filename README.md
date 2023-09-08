@@ -10,7 +10,13 @@ The code implements an automated reliable method to compute transport properties
 
 **Workflow description**
 
-![Fig1](images/workflow_dpd.png)
+<!-- ![Fig1](images/workflow_dpd.png) -->
+
+
+<p align="center">
+    <img src="images/workflow_dpd.png" alt="def1">
+</p>
+
 
 The Python script constituting the algorithm for transport properties calculation from DPD equilibrium simulations is made of:
 
