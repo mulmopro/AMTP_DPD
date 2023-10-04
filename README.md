@@ -1,5 +1,33 @@
 # Automated Method to compute Transport Properties from DPD equilibrium simulations
 
+**Citation**
+
+This repository contains the code we employed in our recent publication in Computer Physics Communication. The LAMMPS simulations we performed and presented are based on the the specific work described in the paper. We built LAMMPS with an **in-house extra-package** that implements the Shardlow-splitting algorithm for the transverse DPD thermostat. 
+
+If you use the code for your own reasearch it would be great if you cite our work:
+
+@article{
+
+**title** = {Development of an automated reliable method to compute transport properties from DPD equilibrium simulations: Application to simple fluids},
+
+**journal** = {Computer Physics Communications},
+
+**volume** = {291},
+
+**pages** = {108843},
+
+**year** = {2023},
+
+**issn** = {0010-4655},
+
+**doi** = {https://doi.org/10.1016/j.cpc.2023.108843},
+
+**author** = {N. Lauriello and G. Boccardo and D. Marchisio and M. Lísal and A. Buffo},
+
+**keywords** = {Automated algorithm, Dissipative particle dynamics, Green-Kubo formula, Equilibrium methods, Transport properties, Transverse DPD thermostat},
+
+}
+
 **Motivations and Application**
 
 The code implements an automated reliable method to compute transport properties from DPD equilibrium simulations performed with LAMMPS. It has the aim of improving the Green-Kubo approach reliability and computational feasibility for the calculation of the zero-shear viscosity in DPD simulations. It is based on an iterative algorithm that automatically finds for a given DPD system:
